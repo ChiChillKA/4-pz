@@ -13,21 +13,21 @@ let surname = prompt("Введите фамили: ")
         let fin_surname=n_surname+normalsurname;
             if(fin_name==name&&fin_surname==surname)
             {
-                alert(name+" "+surname+". "+"Имя и фамилия в норме."); 
+                alert(name+" "+surname+". "+"\nИмя и фамилия в норме."); 
             }
                 else
                 {
                     if(fin_name==name&&fin_surname!=surname){
-                        alert(name+" "+fin_surname+". "+"Имя в норме, фамилия исправна.");
+                        alert(name+" "+fin_surname+". "+"\nИмя в норме, фамилия исправна.");
                     }
                     else
                     {
                         if(fin_name!=name&&fin_surname==surname){
-                            alert(fin_name+" "+surname+". "+"Имя испарвна, фамилия в норме.");
+                            alert(fin_name+" "+surname+". "+"\nИмя испарвна, фамилия в норме.");
                         }
                         else
                         {
-                            alert(fin_name+" "+fin_surname+". "+"Имя и фамилия исправны.");
+                            alert(fin_name+" "+fin_surname+". "+"\nИмя и фамилия исправны.");
                         }
                 };
             }
